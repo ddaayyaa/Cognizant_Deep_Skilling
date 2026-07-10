@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Retrieve from Local Storage</title>
+    <script>
+        function load() {
+            const value = localStorage.getItem('note') || 'No data saved';
+            document.getElementById('output').textContent = value;
+        }
+    </script>
+</head>
+<body onload="load()">
+    <p id="output"></p>
+</body>
+</html>

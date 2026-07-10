@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Event Listener Demo</title>
+    <script>
+        function showMessage() {
+            document.getElementById('message').textContent = 'Event listener executed';
+        }
+        window.addEventListener('load', function() {
+            document.getElementById('button').addEventListener('click', showMessage);
+        });
+    </script>
+</head>
+<body>
+    <button id="button">Click</button>
+    <p id="message"></p>
+</body>
+</html>

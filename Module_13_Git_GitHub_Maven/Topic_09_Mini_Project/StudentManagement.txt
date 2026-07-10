@@ -1,0 +1,1 @@
+Create Student management application with Git and Maven.

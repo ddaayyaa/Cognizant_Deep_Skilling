@@ -1,0 +1,1 @@
+SELECT name, age FROM student ORDER BY age DESC;

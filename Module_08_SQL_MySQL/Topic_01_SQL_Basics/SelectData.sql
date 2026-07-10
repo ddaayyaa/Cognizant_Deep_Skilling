@@ -1,0 +1,1 @@
+SELECT student_id, name, age FROM student;

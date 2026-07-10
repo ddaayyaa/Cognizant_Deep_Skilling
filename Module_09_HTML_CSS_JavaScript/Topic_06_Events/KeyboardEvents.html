@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Keyboard Events</title>
+    <script>
+        document.addEventListener('keydown', function(event) {
+            document.getElementById('output').textContent = 'Pressed: ' + event.key;
+        });
+    </script>
+</head>
+<body>
+    <h1>Keyboard Events</h1>
+    <p id="output"></p>
+</body>
+</html>

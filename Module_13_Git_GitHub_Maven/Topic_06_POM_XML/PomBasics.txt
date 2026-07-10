@@ -1,0 +1,1 @@
+A pom.xml defines groupId, artifactId, version, dependencies, and build settings.

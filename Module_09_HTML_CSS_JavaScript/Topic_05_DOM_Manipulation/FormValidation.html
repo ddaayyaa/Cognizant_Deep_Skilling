@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+    <script>
+        function validate() {
+            const name = document.getElementById('name').value;
+            if (!name) {
+                alert('Name is required');
+                return false;
+            }
+            alert('Form submitted');
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return validate()">
+        <input id="name" type="text" placeholder="Name">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

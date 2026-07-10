@@ -1,0 +1,1 @@
+Initialize project with git and build using Maven commands.

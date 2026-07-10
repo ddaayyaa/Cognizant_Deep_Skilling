@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script>
+        function calculate() {
+            const x = parseFloat(document.getElementById('x').value);
+            const y = parseFloat(document.getElementById('y').value);
+            document.getElementById('result').textContent = x + y;
+        }
+    </script>
+</head>
+<body>
+    <input id="x" type="number"> + <input id="y" type="number"><br>
+    <button onclick="calculate()">Add</button>
+    <p>Result: <span id="result"></span></p>
+</body>
+</html>

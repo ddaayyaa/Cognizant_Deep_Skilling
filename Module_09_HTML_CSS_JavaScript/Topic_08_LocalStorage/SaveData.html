@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Save to Local Storage</title>
+    <script>
+        function save() {
+            localStorage.setItem('note', document.getElementById('note').value);
+            alert('Saved');
+        }
+    </script>
+</head>
+<body>
+    <textarea id="note"></textarea><br>
+    <button onclick="save()">Save</button>
+</body>
+</html>

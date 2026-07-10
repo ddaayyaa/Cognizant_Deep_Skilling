@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Update Local Storage</title>
+    <script>
+        function update() {
+            localStorage.setItem('note', document.getElementById('note').value);
+            alert('Updated');
+        }
+    </script>
+</head>
+<body>
+    <input id="note" type="text" placeholder="Update note"><br>
+    <button onclick="update()">Update</button>
+</body>
+</html>

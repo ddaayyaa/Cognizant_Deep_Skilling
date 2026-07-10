@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo App</title>
+    <script>
+        function addItem() {
+            const task = document.getElementById('task').value;
+            const list = document.getElementById('tasks');
+            const item = document.createElement('li');
+            item.textContent = task;
+            list.appendChild(item);
+        }
+    </script>
+</head>
+<body>
+    <input id="task" type="text" placeholder="New task">
+    <button onclick="addItem()">Add</button>
+    <ul id="tasks"></ul>
+</body>
+</html>

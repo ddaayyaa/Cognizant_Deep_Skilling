@@ -1,0 +1,3 @@
+src/main/java - application code
+src/main/resources - application resources
+src/test/java - test code

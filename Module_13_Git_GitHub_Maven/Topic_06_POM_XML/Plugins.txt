@@ -1,0 +1,1 @@
+Add plugins in pom.xml under the build element, such as maven-compiler-plugin.
